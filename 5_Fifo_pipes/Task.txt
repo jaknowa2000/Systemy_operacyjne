@@ -1,0 +1,4 @@
+Napisać program składający się z 2 procesów. Pierwszy proces pobiera argumenty potrzebne do zadania "Files" z STDIN, 
+przekazuje je przy użyciu kolejek FIFO do drugiego procesu. Drugi proces realizuje "Files", lecz zamiast otrzymywać dane jako argumenty wywołania pobiera dane 
+z procesu pierwszego. Wynik wykonania przekazywany jest do procesu pierwszego przy użyciu pipe. Proces pierwszy wypisuje otrzymany wynik na standardowe wyjście. 
+Ewentualne błędy powstałe podczas wykonywania zadania "Files" przez proces drugi są również przekazywane do procesu pierwszego i przez ten proces wypisywane.

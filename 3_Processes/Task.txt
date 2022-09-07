@@ -1,0 +1,9 @@
+Napisać program, który powołuje jeden proces potomny (informując o swoim i procesu potomnego numerze PID). P
+roces macierzysty nie przyjmuje żadnych sygnałów poza SIGTTIN. Proces potomny ma obsługiwać wszystkie sygnały wysłane przez operatora do niego, 
+a następnie ma wyświetlić na standardowym wyjściu:
+• swój PID,
+• nazwę sygnału, który odebrał,
+• numer sygnału, który odebrał.
+Dodatkowo, jeśli do procesu potomnego zostanie wysłany sygnał SIGINT, proces ten ma wysłać do procesu macierzystego sygnał SIGTTIN, 
+a proces macierzysty ma zakończyć pracę programu (robiąc po programie „porządek”).
+Operator nie wysyła sygnałów bezpośrednio do procesu macierzystego.

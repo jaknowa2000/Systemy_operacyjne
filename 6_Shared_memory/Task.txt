@@ -1,0 +1,6 @@
+Napisać program składający się z 2 procesów. Pierwszy proces pobiera argumenty potrzebne do zadania "Files" jako argumenty wywołania, 
+przekazuje je przy użyciu pamięci dzielonej do drugiego procesu. Drugi proces realizuje zadanie "Files", 
+lecz zamiast otrzymywać dane jako argumenty wywołania pobiera dane z procesu pierwszego (wykorzystując pamięć dzieloną). 
+Wynik wykonania przekazywany jest do procesu pierwszego przy użyciu pamięci dzielonej. Proces pierwszy wypisuje otrzymany wynik na standardowe wyjście. 
+Ewentualne błędy powstałe podczas wykonywania zadania "Files" przez proces drugi są również przekazywane do 
+procesu pierwszego przy użyciu pamięci dzielonej i przez proces pierwszy wypisywane. Należy wykorzystać semafor do blokowania dostępu do pamięci dzielonej.

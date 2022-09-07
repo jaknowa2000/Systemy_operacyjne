@@ -1,0 +1,4 @@
+Napisać program, który zamieni odległość w kilometrach na mile i na minuty świetlne. 
+Każda zamiana ma być realizowana przez osobny wątek. Odległość w kilometrach zostanie podana jako argument wywołania. 
+Każdy z wątków po wykonaniu obliczeń zwraca wynik do wątku głównego i wyświetla swój identyfikator. 
+Wątek główny po zakończeniu obliczeń przez wątki robocze wyświetla wynik pracy każdego z nich.

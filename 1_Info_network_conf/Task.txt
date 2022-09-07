@@ -1,0 +1,5 @@
+Napisać skrypt, który przyjmuje jeden argument. Gdy wartość argumentu jest równa 1,
+skrypt ma zapisać wynik do pliku wynik.txt. Gdy wartość argumentu jest równa 2, skrypt
+wypisze wynik swojego wykonania na konsolę. Gdy zostanie podana inna wartość należy
+wyświetlić błąd – na konsoli. Wynikiem skryptu mają być podstawowe informacje o
+konfiguracji sieciowej komputera.

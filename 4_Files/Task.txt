@@ -1,0 +1,6 @@
+Napisać program, który przyjmie 1 argument. Jako argument należy podać ścieżkę do pliku.
+Program ma sprawdzić:
+a) jakie uprawnienia ma właściciel,
+b) jaki jest rozmiar pliku,
+c) czy tylko ten plik ma ten numer i-węzła.
+Program wyświetli odpowiedzi na podane informacje.
