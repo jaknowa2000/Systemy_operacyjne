@@ -3,7 +3,7 @@ if [ "$1" -eq "1" ] ; then
 	touch wynik.txt
 	echo "Adres MAC" > wynik.txt
 	ip a | grep "link/ether" | awk  '{print $2}' >> wynik.txt
-	echo "Brama domyslna" >> kasia.txt
+	echo "Brama domyslna" >> wynik.txt
 	ip route | grep "default via" | awk  '{print $3}' >> wynik.txt
 	echo "Adres IP/Maska sieciowa" >> wynik.txt
 	ip a | grep "inet" | grep "brd" | awk  '{print $2}' >> wynik.txt
